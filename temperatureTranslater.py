@@ -1,5 +1,6 @@
 import streamlit as st
 
+st.title("Temperature Converter")
 def fTranslater(cDegree):
     f = cDegree*9/5 + 32
     return f
